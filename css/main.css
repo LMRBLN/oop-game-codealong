@@ -4,13 +4,21 @@ body {
 
 #board {
     background-color: purple;
-    width: 100vw;
+    width: 100%vw;
     height: 100vh;
     position: relative;
+    overflow: hidden;
 }
 
 #player {
     background-color: wheat;
-    width: 10%;
-    height: 5%;
+    /* width: 10%;
+    height: 5%; */
+}
+
+.obstacle {
+    /* width: 10vw;
+    height: 10vh; */
+    background-color: yellow;
+    position: absolute;
 }
